@@ -1,8 +1,25 @@
 {
-  "name": "shape2compose",
-  "private": true,
-  "version": "0.0.0",
+  "name": "canvas-lab",
+  "version": "0.1.0",
+  "description": "Draw shapes visually and export Jetpack Compose, SVG, Android VectorDrawable, React and HTML Canvas code — plus SVG/PNG assets.",
   "type": "module",
+  "license": "MIT",
+  "author": "Vexora (https://vexora.in)",
+  "homepage": "https://github.com/Micoder-dev/Canvas-Lab",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Micoder-dev/Canvas-Lab.git"
+  },
+  "keywords": [
+    "jetpack-compose",
+    "design-tool",
+    "svg",
+    "vectordrawable",
+    "canvas",
+    "code-generator",
+    "react",
+    "konva"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
