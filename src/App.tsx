@@ -33,7 +33,7 @@ export default function App() {
   return (
     <div className="app">
       <header className="topbar">
-        <span className="brand"><img className="brand__logo" src="/logo-optimized.png" alt="Vexora" />Canvas<b>&nbsp;Lab</b></span>
+        <span className="brand"><img className="brand__logo" src={`${import.meta.env.BASE_URL}logo-optimized.png`} alt="Vexora" />Canvas<b>&nbsp;Lab</b></span>
         <span className="topbar__div" />
         <div className="histbtns">
           <button className="iconbtn" disabled={!canUndo} title="Undo (Ctrl+Z)" onClick={undo}>↶</button>
